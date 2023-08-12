@@ -1,0 +1,59 @@
+html{
+    scroll-behavior: smooth;
+    height: 100%;
+    width: 100%;    
+}
+body{
+    font-family: 'Righteous';
+    margin: 0;
+    padding:0;
+    background-color: #b4ffa8;
+    opacity: 1;
+    background-image:  linear-gradient(135deg, #fcd4d4 25%, transparent 25%), linear-gradient(225deg, #fcd4d4 25%, transparent 25%), linear-gradient(45deg, #fcd4d4 25%, transparent 25%), linear-gradient(315deg, #fcd4d4 25%, #dbffd6 25%);
+    background-position:  4px 0, 4px 0, 0 0, 0 0;
+    background-size: 8px 8px;
+    background-repeat: repeat;
+}
+.contenido-header{
+    background:rgb(187, 73, 73);
+    font-family: 'Righteous';
+    font-size: 50px;
+    color:rgb(228, 192, 144);
+    padding: 0.5px;
+    text-align: center;
+}
+.clase1{
+    color:rgb(187, 73, 73);
+    margin: 15px;
+    font-size: 22px;
+}
+.clase2{
+    color:rgb(228, 192, 144);
+    font-size: 28px;
+}
+.image img{
+    width: 250px;
+    height: 500px;  
+    max-width: 350px;
+    border-radius: 10px;
+    border: 10px solid black ;
+    display:block;
+    width: 200%;
+    margin: auto;
+    border-radius: 15%;
+    margin-top: 10px;
+}
+.ecuacion{
+    font-family: 'Righteous';
+    color:rgb(187, 73, 73);
+    margin: 15px;
+    font-size: 22px;
+}
+.ecuacion p{
+    font-family: 'Righteous';
+    color:black;
+    margin: 15px;
+    font-size: 22px;
+    padding-bottom: 40px;
+    text-align: center;
+}

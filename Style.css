@@ -1,0 +1,19 @@
+html {
+    height: 100%;
+    width: 100%;
+}
+body{
+    background-image:  linear-gradient(135deg, #e3c8ff 25%, transparent 25%), linear-gradient(225deg, #e3c8ff 25%, transparent 25%), linear-gradient(45deg, #e3c8ff 25%, transparent 25%), linear-gradient(315deg, #e3c8ff 25%, #b4ffa8 25%);
+    background-position:  4px 0, 4px 0, 0 0, 0 0;
+    background-size: 8px 8px;
+    background-repeat: repeat;
+    
+}
+
+.clase1{
+    color:red;
+}
+.image img{
+    width: 250px;
+    height: 400px;
+}
