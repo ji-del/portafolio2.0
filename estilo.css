@@ -13,6 +13,7 @@ body{
     background-position:  4px 0, 4px 0, 0 0, 0 0;
     background-size: 8px 8px;
     background-repeat: repeat;
+    font-size:20px;
 }
 .contenido-header{
     background:rgb(187, 73, 73);
@@ -32,9 +33,8 @@ body{
     font-size: 28px;
 }
 .image img{
-    width: 250px;
     height: 500px;  
-    max-width: 350px;
+    max-width: 300px;
     border-radius: 10px;
     border: 10px solid black ;
     display:block;
