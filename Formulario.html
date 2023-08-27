@@ -3,87 +3,52 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport">
-        <content="width=device-width">
-        <title>titulo perro</title>
-        <link href="formulario.css" rel="stylesheet">
+        <title>titulo </title>
+        <link rel="icon" href="icono.png">
+        <script type="text/javascript" src="https:cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">  
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
-        <type=""></type>
+        <link href="formulario.css" rel="stylesheet">
+
     </head>
 
-    <body>
-        <form>
-            <div class="nativeTimePicker">
-              <label for="appt-time">
-                Choose an appointment time (opening hours 12:00 to 18:00):
-              </label>
-              <input
-                id="appt-time"
-                type="time"
-                name="appt-time"
-                min="12:00"
-                max="18:00"
-                required />
-              <span class="validity"></span>
-            </div>
-            <p class="fallbackLabel">
-              Choose an appointment time (opening hours 12:00 to 18:00):
-            </p>
-            <div class="fallbackTimePicker">
-              <div>
-                <span>
-                  <label for="hour">Hour:</label>
-                  <select id="hour" name="hour"></select>
-                </span>
-                <span>
-                  <label for="minute">Minute:</label>
-                  <select id="minute" name="minute"></select>
-                </span>
-              </div>
-            </div>
-          </form>
-          
-        <form>
-            <div>
-              <label for="uname">Choose a username: </label>
-              <input
-                type="text"
-                id="uname"
-                name="name"
-                required
-                size="45"
-                pattern="[a-z]{4,8}" />
-              <span class="validity"></span>
-              <p>Usernames must be lowercase and 4-8 characters in length.</p>
-            </div>
-            <div>
-              <button>Submit</button>
-            </div>
-          </form>
-          
-    <form>
-        <fieldset>
-          <legend>Please select your preferred contact method:</legend>
-          <div>
-            <input
-              type="radio"
-              id="contactChoice1"
-              name="contact"
-              value="email"
-              checked />
-            <label for="contactChoice1">Email</label>
-      
-            <input type="radio" id="contactChoice2" name="contact" value="phone" />
-            <label for="contactChoice2">Phone</label>
-      
-            <input type="radio" id="contactChoice3" name="contact" value="mail" />
-            <label for="contactChoice3">Mail</label>
+    <body style="background-color: rgb(238, 223, 173) ;">    
+      <div class="container" style="background-color:rgb(238, 223, 173);">
+        <div class="row">
+          <div class="col-sm-12">
+            <h1 style="text-align: center;">Titulo principal <i class="fa-brands fa-wolf-pack-battalion"></i> </h1>
           </div>
-          <div>
-            <button type="submit">Submit</button>
+          <div class="col-sm-3">
+            <h2>Titulo 2</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam laboriosam dolorem voluptate, pariatur cumque, quam quos aut quo, unde temporibus nostrum eaque eos ipsa hic culpa cupiditate? Et, molestiae harum!</p>
           </div>
-        </fieldset>
-      </form>
-      
-      
+          <div class="col-sm-9">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam laboriosam dolorem voluptate, pariatur cumque, quam quos aut quo, unde temporibus nostrum eaque eos ipsa hic culpa cupiditate? Et, molestiae harum!Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam laboriosam dolorem voluptate, pariatur cumque, quam quos aut quo, unde temporibus nostrum eaque eos ipsa hic culpa cupiditate? Et, molestiae harum!Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam laboriosam dolorem voluptate, pariatur cumque, quam quos aut quo, unde temporibus nostrum eaque eos ipsa hic culpa cupiditate? Et, molestiae harum!Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam laboriosam dolorem voluptate, pariatur cumque, quam quos aut quo, unde temporibus nostrum eaque eos ipsa hic culpa cupiditate? Et, molestiae harum!Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, vitae natus illum officia facere perferendis libero alias excepturi! Quaerat sint ipsam ad nulla nesciunt tenetur harum nisi eveniet velit veniam!</p>
+          </div>
+          <div class="col-sm-12">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam laboriosam dolorem voluptate, pariatur cumque, quam quos aut quo, unde temporibus nostrum eaque eos ipsa hic culpa cupiditate? Et, molestiae harum!Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam laboriosam dolorem voluptate, pariatur cumque, quam quos aut quo, unde temporibus nostrum eaque eos ipsa hic culpa cupiditate? Et, molestiae harum!Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam laboriosam dolorem voluptate, pariatur cumque, quam quos aut quo, unde temporibus nostrum eaque eos ipsa hic culpa cupiditate? Et, molestiae harum!</p>
+          </div>
+          <div class="col-sm-12"><h2 style="text-align: center;">Ecuacion: </h2>
+          </div>
+
+          <div class="col-sm-11">
+            <p>$$\frac z{2^2}+\sqrt{ \frac 32x^2-3 \beta}=\frac 52 j $$</p> 
+            <p>$$\int_a^b 3z^{5i} -2j + \frac 83 ,dz= 0$$</p>
+            <p>$$\left| \begin{array}{cc} a_0 &a_1 \\ a_2 & a_3 \end{array} \right|=det[a]$$</p>           
+          </div>
+          <div class="col-sm-1">
+            <h2>#1</h2>
+            <h2>#2</h2>
+            <h2>#3</h2>
+          </div>
+          <div class="col-sm-6">
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui in error nostrum, veniam assumenda saepe blanditiis adipisci sed, temporibus enim, exercitationem neque doloribus vitae? Quia natus ullam incidunt eaque dicta.Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui in error nostrum, veniam assumenda saepe blanditiis adipisci sed, temporibus enim, exercitationem neque doloribus vitae? Quia natus ullam incidunt eaque dicta.Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui in error nostrum, veniam assumenda saepe blanditiis adipisci sed, temporibus enim, exercitationem neque doloribus vitae? Quia natus ullam incidunt eaque dicta.Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui in error nostrum, veniam assumenda saepe blanditiis adipisci sed, temporibus enim, exercitationem neque doloribus vitae? Quia natus ullam incidunt eaque dicta. </p>  
+          </div>
+          <div class="col-sm-6">
+              <img src="spidei.jpg";  
+          </div>    
+        </div>
+      </div>
     </body>
+      
 </html>
